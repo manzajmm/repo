@@ -1,0 +1,224 @@
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(109, 112, 106);
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    color: rgb(165, 116, 99);
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+p {
+    color: rgb(132, 149, 180);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.logoPng{
+    height: 80px;
+    margin-left: 100px;
+    
+}
+.logo:hover{
+    transform: scale(0.7);
+    transition: 0.5s;
+    
+
+
+}
+.navLista{
+   border-radius: 15%;
+   margin: 0;
+   padding: 0;
+   
+}
+
+.navLista li{ 
+    display: inline-flex;
+    list-style: none;  
+    padding: 3px;
+    margin: 2em;
+   
+    
+  
+    
+    
+    
+}
+.navLista li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(248, 248, 247);
+    font-size: 20px;
+    
+
+}
+
+ul li a:hover{
+    cursor: pointer;
+    color: rgb(31, 12, 16);
+    transition: 0.5s;
+    transform: scale(0.7);
+}
+table tr:first-child {
+    color: rgb(19, 8, 8);
+    background-color: rgb(235, 128, 194);
+    border-bottom: solid 5px rgb(0, 0, 0);
+    
+
+  }
+
+
+
+
+
+.imgServicios{
+    padding: 10px 10px 10px 200px;
+}
+
+.contactoPage{
+   background-color:  rgb(216, 246, 252);
+   color: #fff;
+   padding: 0 1.5em;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+}
+.logoC{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
+.logoC span{
+    color: crimson;
+}
+.contacto-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+.contacto-wrapper > *{
+    padding: 1em;
+    box-sizing: border-box;
+}
+.contacto-form{
+    background:#fff;
+    
+}
+.contacto-info{
+    background: #000000;
+}
+.contacto-form form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin:0;
+   padding: 1em;
+}
+.contacto-form form .bloke{
+    grid-column: 1 /3;
+}
+.contacto-form p{
+    color: #000000;
+}
+
+.contacto-form input,
+.contacto-form button,
+.contacto-form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid crimson;
+    color: #000000;
+    outline: none;
+}
+.contacto-form button{
+    background: crimson;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contacto-form form button:hover{
+    color: #fff;
+    transition: 1s ease-out;
+}
+.contacto-info h4,
+.contacto-info p,
+.contacto-info ul{
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+.contacto-info ul{
+    list-style: none;
+    padding: 0;
+}
+.contacto-info ul li{
+    padding: .3em;
+}
+.contacto-info p{
+    color: #fff;
+}
+@media (min-width: 780px){
+    .contactoPage{
+        height: 100vh;
+        max-height: fit-content;
+    }
+    .contacto-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 0.4rem;
+    }
+
+    .contacto-info ul{
+        padding: 1rem;
+    }
+    .contacto-info p{
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    
+}
+@media (max-width:780px){
+    footer h4{
+        display: none;
+    }
+}
+footer{
+    display: flex;  
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: rgb(216, 246, 252);
+    padding: 15px;
+    align-items: top;
+    position: inherit;
+    
+}
+footer h4{
+    color: rgb(6, 2, 7);
+    font-size: 20px;
+}
+.iconos li{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 35px;
+}
+footer .fab{
+    text-decoration: none;
+    text-decoration-color: rgb(253, 252, 252);
+    font-size: 30px;
+}
+.fab:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+
+}

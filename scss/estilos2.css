@@ -1,0 +1,100 @@
+.servicios__container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto;
+}
+
+.lookBook, .newIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.lookBook img, .newIn img {
+  padding: auto;
+  margin: 40px;
+  height: 400px;
+  width: 320px;
+}
+
+.servicios__titulo {
+  text-align: center;
+  font-size: 40px;
+  color: #f30b0b;
+}
+
+.servicios__tarjetas {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2PX rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2PX rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.servicios__tarjetas:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.servicios__tarjetas--img {
+  width: 330px;
+  height: 220px;
+}
+
+.servicios__tarjetas--h {
+  font-weight: 600;
+}
+
+.servicios__tarjetas--p {
+  padding: 0 2rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.servicios__tarjetas--contacto {
+  text-decoration: none;
+  font-weight: 500;
+  color: crimson;
+}
+
+.lookBook {
+  background-color: #f3c5c5;
+}
+
+.lookBook img {
+  border-style: dashed;
+}
+
+.newIn {
+  background-color: #f80808;
+}
+
+.newIn img {
+  border-style: double;
+}
+/*# sourceMappingURL=estilos2.css.map */

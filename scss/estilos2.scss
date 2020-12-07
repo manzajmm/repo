@@ -1,0 +1,97 @@
+$titulo: rgb(243, 11, 11);
+$rojo: crimson;
+$colorCorp: rgb(216, 246, 252);
+@mixin fondos ($colorFondo){
+    background-color: $colorFondo;
+}
+@mixin borde ($bordes){
+    border-style: $bordes;
+}
+%estructura1{
+    width: 	100%;
+    max-width: 1200px;
+    height: 100% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    
+}
+%estrucGaleria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+%estrucImg{
+    padding: auto;
+    margin: 40px;
+    height: 400px ;
+    width: 320px;
+    
+}
+
+
+.servicios__titulo{
+    text-align: center;
+    font-size: 40px;
+    color: $titulo;
+    
+}
+.servicios__container{
+    @extend %estructura1;   
+    
+
+}
+
+.servicios__tarjetas{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2PX rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    &:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+    }
+   &--img{
+        width:330px;
+        height:220px;
+
+    }
+    &--h{
+        font-weight: 600;
+    }
+    &--p{
+        padding: 0 2rem;
+        font-size: 16px;
+        font-weight:300;
+    }
+    &--contacto{
+        text-decoration: none;
+        font-weight: 500;
+        color: $rojo;
+    }
+
+}
+.lookBook{
+    @extend %estrucGaleria;
+    @include fondos (rgb(243, 197, 197));
+    img{
+        @extend %estrucImg;
+        @include borde (dashed)
+    }
+}
+.newIn{
+    @extend %estrucGaleria;
+    @include fondos (rgb(248, 8, 8));
+    img{
+        @extend %estrucImg;
+        @include borde (double)
+
+    }
+}
