@@ -83,15 +83,15 @@
 }
 
 .lookBook {
-  background-color: #f3c5c5;
+  background-color: rgba(247, 243, 232, 0.979);
 }
 
 .lookBook img {
-  border-style: dashed;
+  border-style: double;
 }
 
 .newIn {
-  background-color: #f80808;
+  background-color: rgba(247, 243, 232, 0.979);
 }
 
 .newIn img {

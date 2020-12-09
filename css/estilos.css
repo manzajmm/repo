@@ -5,7 +5,7 @@
     padding: 0;
     }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(247, 243, 232, 0.979);
 }
 h1{
     color: rgb(109, 112, 106);
@@ -196,7 +196,7 @@ footer{
     display: flex;  
     justify-content: space-around;
     text-decoration: none;
-    background-color: rgb(216, 246, 252);
+    background-color:rgba(247, 243, 232, 0.979);
     padding: 15px;
     align-items: top;
     position: inherit;

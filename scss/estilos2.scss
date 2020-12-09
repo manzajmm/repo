@@ -80,15 +80,15 @@ $colorCorp: rgb(216, 246, 252);
 }
 .lookBook{
     @extend %estrucGaleria;
-    @include fondos (rgb(243, 197, 197));
+    @include fondos (rgba(247, 243, 232, 0.979));
     img{
         @extend %estrucImg;
-        @include borde (dashed)
+        @include borde (double)
     }
 }
 .newIn{
     @extend %estrucGaleria;
-    @include fondos (rgb(248, 8, 8));
+    @include fondos (rgba(247, 243, 232, 0.979));
     img{
         @extend %estrucImg;
         @include borde (double)
