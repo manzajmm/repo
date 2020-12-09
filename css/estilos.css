@@ -85,7 +85,7 @@ table tr:first-child {
 }
 
 .contactoPage{
-   background-color:  rgb(216, 246, 252);
+   background-color: rgba(247, 243, 232, 0.979);
    color: #fff;
    padding: 0 1.5em;
    margin-left: auto;
