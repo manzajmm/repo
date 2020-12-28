@@ -1,5 +1,5 @@
-$titulo: rgb(243, 11, 11);
-$rojo: crimson;
+$titulo: rgb(0, 0, 0);
+$rojo: rgb(0, 0, 0);
 $colorCorp: rgb(216, 246, 252);
 @mixin fondos ($colorFondo){
     background-color: $colorFondo;
@@ -111,6 +111,8 @@ $colorCorp: rgb(216, 246, 252);
     img{
         @extend %estrucImg;
         @include borde (double)
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+        border-radius: 6px;
 
     }
 }
