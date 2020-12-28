@@ -20,12 +20,13 @@ $colorCorp: rgb(216, 246, 252);
 %estrucGaleria{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin: auto;
 }
 %estrucImg{
     padding: auto;
-    margin: 40px;
+    margin: 50px;
     height: 400px ;
     width: 320px;
     
