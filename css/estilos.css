@@ -5,7 +5,7 @@
     padding: 0;
     }
 body{
-    background-color: rgba(247, 243, 232, 0.979);
+    background-color: rgba(255, 255, 255, 0.979);
 }
 h1{
     color: rgb(109, 112, 106);
@@ -85,7 +85,7 @@ table tr:first-child {
 }
 
 .contactoPage{
-   background-color: rgba(247, 243, 232, 0.979);
+   background-color: rgba(255, 255, 255, 0.979);
    color: #fff;
    padding: 0 1.5em;
    margin-left: auto;
@@ -196,7 +196,7 @@ footer{
     display: flex;  
     justify-content: space-around;
     text-decoration: none;
-    background-color:rgba(247, 243, 232, 0.979);
+    background-color:rgba(255, 255, 255, 0.979);
     padding: 15px;
     align-items: top;
     position: inherit;

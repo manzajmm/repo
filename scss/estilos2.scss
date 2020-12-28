@@ -1,5 +1,5 @@
-$titulo: rgb(0, 0, 0);
-$rojo: rgb(0, 0, 0);
+$titulo: #007bff;
+$rojo: #007bff;
 $colorCorp: rgb(216, 246, 252);
 @mixin fondos ($colorFondo){
     background-color: $colorFondo;
@@ -66,6 +66,7 @@ $colorCorp: rgb(216, 246, 252);
     }
     &--h{
         font-weight: 600;
+        color: #007bff;
     }
     &--p{
         padding: 0 2rem;
@@ -81,7 +82,7 @@ $colorCorp: rgb(216, 246, 252);
 }
 .lookBook{
     @extend %estrucGaleria;
-    @include fondos (rgba(247, 243, 232, 0.979));
+    @include fondos ( rgba(255, 255, 255));
     img{
         @extend %estrucImg;
         @include borde (double)
@@ -90,7 +91,7 @@ $colorCorp: rgb(216, 246, 252);
     }
     img:hover{
         transform: scale(1.1);
-        transition: 1s;
+        transition: 0.5s;
 
     }
   
@@ -109,7 +110,7 @@ $colorCorp: rgb(216, 246, 252);
 }
 .newIn{
     @extend %estrucGaleria;
-    @include fondos (rgba(247, 243, 232, 0.979));
+    @include fondos ( rgba(255, 255, 255));
     img{
         @extend %estrucImg;
         @include borde (double)
@@ -119,7 +120,7 @@ $colorCorp: rgb(216, 246, 252);
     }
     img:hover{
         transform: scale(1.1);
-        transition: 1s;
+        transition: 0.5s;
 
     }
 }
