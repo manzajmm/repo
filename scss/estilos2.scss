@@ -27,8 +27,8 @@ $colorCorp: rgb(216, 246, 252);
 %estrucImg{
     padding: auto;
     margin: 50px;
-    height: 400px ;
-    width: 320px;
+    height: 500px ;
+    width: 420px;
     
 }
 
@@ -85,7 +85,25 @@ $colorCorp: rgb(216, 246, 252);
     img{
         @extend %estrucImg;
         @include borde (double)
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+        border-radius: 6px;
     }
+    img:hover{
+
+    }
+  
+}
+.contactol{
+    text-decoration: none;
+    font-size: 38px;
+    text-align: center;
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+
 }
 .newIn{
     @extend %estrucGaleria;

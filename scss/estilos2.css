@@ -32,8 +32,8 @@
 .lookBook img, .newIn img {
   padding: auto;
   margin: 50px;
-  height: 400px;
-  width: 320px;
+  height: 500px;
+  width: 420px;
 }
 
 .servicios__titulo {
@@ -89,6 +89,23 @@
 
 .lookBook img {
   border-style: double;
+  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.contactol {
+  text-decoration: none;
+  font-size: 38px;
+  text-align: center;
+}
+
+.contactol a:link {
+  color: black;
+}
+
+.contactol a:visited {
+  color: black;
 }
 
 .newIn {
