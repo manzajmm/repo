@@ -39,7 +39,7 @@
 .servicios__titulo {
   text-align: center;
   font-size: 40px;
-  color: #007bff;
+  color: #000000;
 }
 
 .servicios__tarjetas {
@@ -69,7 +69,7 @@
 
 .servicios__tarjetas--h {
   font-weight: 600;
-  color: #007bff;
+  color: #000000;
 }
 
 .servicios__tarjetas--p {
@@ -81,7 +81,7 @@
 .servicios__tarjetas--contacto {
   text-decoration: none;
   font-weight: 500;
-  color: #007bff;
+  color: #000000;
 }
 
 .lookBook {
